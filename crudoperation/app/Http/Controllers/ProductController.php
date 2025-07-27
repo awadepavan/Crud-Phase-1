@@ -61,7 +61,7 @@ class ProductController extends Controller
         $product->save(); 
     }
 
-    // ✅ Save only once after setting everything
+    //  Save only once after setting everything
 
     return redirect()->route('products.index')->with('success', 'Product created successfully');
     }
